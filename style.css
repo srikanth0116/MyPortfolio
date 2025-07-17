@@ -1,0 +1,89 @@
+*{
+    font-family: monospace;
+}
+body{
+    background-color: #f0f8ff;
+    margin: 0;
+    font-size: 19px;
+}
+header{
+    height: 100vh;
+    color: white;
+    background-color: #2196f3;
+}
+h1{
+    font-size: 40px;
+    color: #2196f3;
+}
+header h1{
+    color: white;
+    margin: 0;
+}
+.button{
+    font-size: 20px;
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.button:hover{
+    color: white;
+    background-color: blue;
+
+}
+img{
+    height: 250px;
+
+}
+section{
+    height: 100vh;
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+main{
+    padding: 20px;
+}
+.submit{
+    font-size: 20px;
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    background-color: #2196f3;
+    cursor: pointer;
+}
+.submit:hover{
+    background-color: #1685df;
+}
+input{
+    border-radius: 5px;
+    border: 1px solid;
+    border-color:lightgray;
+    height: 25px;
+}
+footer{
+    height: 100px;
+    color: white;
+    background-color: black;
+}
+.upbutton{
+    font-size: 25px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color:#1881d6;
+    color: white;
+    border-radius: 30px;
+    height: 70px;
+    width: 70px;
+    cursor: pointer;
+    border: none;
+    border-color: rgb(19, 120, 203);
+}
+.upbutton:hover{
+    background-color: #055698;
+    
+}

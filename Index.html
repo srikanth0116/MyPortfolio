@@ -1,106 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Index</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
+  <header>
+    <h1>WELCOME TO MY PORTFOLIO</h1>
+    <a href="#about"><button class="button">About</button></a>
+    <a href="#skills"><button class="button">Skills</button></a>
+    <a href="#projects"><button class="button">Projects</button></a>
+    <a href="#contact"><button class="button">Contact</button></a>
+  </header>
 
-        <h1>WELCOME TO MY PORTFOLIO</h1>
-    <a href=""><button>About</button></a>
-    <a href=""><button>Skills</button></a>
-    <a href=""><button>Projects</button></a>
-    <a href=""><button>Contact</button></a>
-    
-    </header>
+  <main>
+    <section id="about">
+      <h1>Srikanth Chittirajulu</h1>
+      <img src="mypic.jpg" alt="A photo of Srikanth" />
+      <p>I am a passionate web developer with a focus on front-end.</p>
+      <p>I am currently pursuing my <b>B.TECH</b> at <b>CMR TECHNICAL CAMPUS</b>.</p>
+      <p>I learned web development from YouTube classes.</p>
+      <p>
+        You can <a href="https://in.linkedin.com/in/chittirajula-srikanth-634716291" target="_blank">Click Here</a>
+        to check out my <b>LinkedIn Profile</b>.
+      </p>
+    </section>
 
-    <main>
-        <section id="about">
-            <h1>Srikanth Chittirajulu</h1>
-            <img src="mypic.jpg" alt="a photo of me" width="250" height="300">
-    <p>I am passionate web developer with a focus on front-end</p>
-    <p>I am currently pursuing my <b>B.TECH</b> in <b>CMR TECHNICAL CAMPUS</b></p>
-    <p>I learnt web development from<br>Youtube Classes</p>
-    <p>You can <a href="https://in.linkedin.com/in/chittirajula-srikanth-634716291">Click Here</a> to Checkout my <b>LinkedIn Profile</b>.</p>
-        </section>
+    <section id="skills">
+      <h1>My Skills</h1>
+      <ol>
+        <li>Python Basic</li>
+        <li>HTML Basic</li>
+        <li>CSS Basic</li>
+        <li>JavaScript Basic</li>
+      </ol>
+    </section>
 
-        <section id="skills">
-  <h1>My Skills</h1>
-  <ol style="display">
-    <li>Python Basic</li>
-    <li>HTML Basic</li>
-    <li>CSS Basic</li>
-    <li>JavaScript Basic</li>
-  </ol>
-</section>
-
-    
-<div class="table-container">
-           <table border="2">
-            <thead>
-            <h1>MY PROJECTS</h1>
+    <section id="projects">
+      <h1>My Projects</h1>
+      <div class="table-container">
+        <table border="2">
+          <thead>
             <tr>
-                <th>Projects</th>
-                <th>Description</th>
+              <th>Project</th>
+              <th>Description</th>
             </tr>
-            </thead>
-            <tbody>
+          </thead>
+          <tbody>
             <tr>
-                <td>My Portfolio Website</td>
-                <td>I have built this website using HTML,CSS & JavaScript</td>
+              <td>My Portfolio Website</td>
+              <td>I have built this website using HTML, CSS & JavaScript.</td>
             </tr>
             <tr>
-                <td>Mini Project on Python</td>
-                <td>Airline Reservation System using Python</td>
+              <td>Mini Project on Python</td>
+              <td>Airline Reservation System using Python.</td>
             </tr>
-            </tbody>
-           </table> 
-</div>
-        <section id="contact">
-            <h1>Contact Me</h1>
-    <p>Feel free to get in touch with me using the form below:</p>
-    <form>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h1>Contact Me</h1>
+      <p>Feel free to get in touch with me using the form below:</p>
+      <form>
         <label for="name">Name:</label>
-        <input type="name" required>
-        <br>
+        <input type="text" id="name" name="name" required />
+        <br />
 
         <label for="email">Email:</label>
-        <input type="email" required>
-        <br>
+        <input type="email" id="email" name="email" required />
+        <br />
 
         <b>Choose your gender:</b>
         <label for="male">Male</label>
-        <input type="radio" id="male" name="gender" value="male">
+        <input type="radio" id="male" name="gender" value="male" />
         <label for="female">Female</label>
-        <input type="radio" id="female" name="gender" value="female">
-        <br>
+        <input type="radio" id="female" name="gender" value="female" />
+        <br />
 
-        <b>Select your intrests:</b>
-        <input type="checkbox" id="coding" value="coding">
-        <label for="coding">Codind</label>
-        <input type="checkbox" id="reading" value="reading">
+        <b>Select your interests:</b>
+        <input type="checkbox" id="coding" name="interest" value="coding" />
+        <label for="coding">Coding</label>
+        <input type="checkbox" id="reading" name="interest" value="reading" />
         <label for="reading">Reading</label>
-        
+        <br />
 
-        <br>
-        <label for="bio">Bio(up to 200 characters):</label>
-        <input type="text">
-        <br>
+        <label for="bio">Bio (up to 200 characters):</label>
+        <input type="text" id="bio" name="bio" maxlength="200" />
+        <br />
 
-        <button type="submit">Submit</button>
+        <button type="submit" class="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+  <button class="upbutton">UP</button>
 
-    </form>
-</section>
-</main>
-
-
-   <footer>
-        <p>@ 2025 Myportfolio</p>
-    </footer>
-
-    
+  <footer>
+    <p> &copy 2025 MyPortfolio</p>
+  </footer>
 </body>
 </html>
