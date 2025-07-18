@@ -36,11 +36,12 @@ header h1{
     border: none;
     border-radius: 15px;
     cursor: pointer;
+    transition: all 1s ease 0s;
 }
 .button:hover{
     color: white;
     background-color: blue;
-
+    transform: translateY(5px);
 }
 img{
     height: 250px;
@@ -104,8 +105,13 @@ footer{
     cursor: pointer;
     border: none;
     border-color: rgb(19, 120, 203);
+    transition: all 0.3s ease 0s;
 }
 .upbutton:hover{
     background-color: #055698;
+    transform: rotate(360deg);
     
+}
+ol{
+    font-size: 25px;
 }
